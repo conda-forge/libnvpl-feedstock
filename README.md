@@ -33,14 +33,14 @@ Current release info
 Installing libnvpl
 ==================
 
-Installing `libnvpl` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `libnvpl` from the `conda-forge/label/nvpl_rc` channel can be achieved by adding `conda-forge/label/nvpl_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/nvpl_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `_nvpl_dev_mutex, libnvpl-dev` can be installed with `conda`:
+Once the `conda-forge/label/nvpl_rc` channel has been enabled, `_nvpl_dev_mutex, libnvpl-dev` can be installed with `conda`:
 
 ```
 conda install _nvpl_dev_mutex libnvpl-dev
@@ -55,26 +55,26 @@ mamba install _nvpl_dev_mutex libnvpl-dev
 It is possible to list all of the versions of `_nvpl_dev_mutex` available on your platform with `conda`:
 
 ```
-conda search _nvpl_dev_mutex --channel conda-forge
+conda search _nvpl_dev_mutex --channel conda-forge/label/nvpl_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search _nvpl_dev_mutex --channel conda-forge
+mamba search _nvpl_dev_mutex --channel conda-forge/label/nvpl_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search _nvpl_dev_mutex --channel conda-forge
+mamba repoquery search _nvpl_dev_mutex --channel conda-forge/label/nvpl_rc
 
 # List packages depending on `_nvpl_dev_mutex`:
-mamba repoquery whoneeds _nvpl_dev_mutex --channel conda-forge
+mamba repoquery whoneeds _nvpl_dev_mutex --channel conda-forge/label/nvpl_rc
 
 # List dependencies of `_nvpl_dev_mutex`:
-mamba repoquery depends _nvpl_dev_mutex --channel conda-forge
+mamba repoquery depends _nvpl_dev_mutex --channel conda-forge/label/nvpl_rc
 ```
 
 
