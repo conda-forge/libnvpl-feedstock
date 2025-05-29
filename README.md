@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-_nvpl_dev_mutex-green.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/_nvpl_dev_mutex.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/_nvpl_dev_mutex.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/_nvpl_dev_mutex.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-__nvpl__dev__mutex-green.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/_nvpl_dev_mutex.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/_nvpl_dev_mutex.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/_nvpl_dev_mutex.svg)](https://anaconda.org/conda-forge/_nvpl_dev_mutex) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-libnvpl--dev-green.svg)](https://anaconda.org/conda-forge/libnvpl-dev) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libnvpl-dev.svg)](https://anaconda.org/conda-forge/libnvpl-dev) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libnvpl-dev.svg)](https://anaconda.org/conda-forge/libnvpl-dev) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libnvpl-dev.svg)](https://anaconda.org/conda-forge/libnvpl-dev) |
 
 Installing libnvpl
