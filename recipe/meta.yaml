@@ -1,8 +1,14 @@
-{% set version = "25.5.0" %}
+{% set version = "25.5" %}
 
 package:
   name: libnvpl-split
-  version: {{ version }}
+  version: {{ (version ~ ".0.0").split('.')[:3] | join('.') }}
+
+source:
+  # Trick the autotick bot into opening PRs for this feedstock by adding a source URL
+  # TODO: We could use this JSON to test that the packages are pinned correctly
+  - url: https://developer.download.nvidia.com/compute/nvpl/redist/redistrib_{{ version }}.json
+    sha256: cb41cde7d01c12a0fadb9cd971db5852581adef110fa5b4a8631a0fa7dcdd739
 
 build:
   number: 0
