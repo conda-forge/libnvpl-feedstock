@@ -11,7 +11,7 @@ source:
     sha256: cb41cde7d01c12a0fadb9cd971db5852581adef110fa5b4a8631a0fa7dcdd739
 
 build:
-  number: 0
+  number: 1
 
 # All of the NVPL components development packages depend on this mutex which
 # constrains the environment to a matching set of packages. The mutex only
@@ -59,8 +59,7 @@ about:
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   license_url: https://docs.nvidia.com/nvpl/license.html
   summary: >-
-    The NVIDIA Performance Libraries (NVPL). For convenience only! Not to be
-    used in host requirements for conda recipes!
+    The NVIDIA Performance Libraries (NVPL). For convenience only! Not to be used in host requirements for conda recipes!
 
 extra:
   feedstock-name: libnvpl
