@@ -1,4 +1,4 @@
-{% set version = "25.5" %}
+{% set version = "25.11" %}
 
 package:
   name: libnvpl-split
@@ -8,7 +8,7 @@ source:
   # Trick the autotick bot into opening PRs for this feedstock by adding a source URL
   # TODO: We could use this JSON to test that the packages are pinned correctly
   - url: https://developer.download.nvidia.com/compute/nvpl/redist/redistrib_{{ version }}.json
-    sha256: cb41cde7d01c12a0fadb9cd971db5852581adef110fa5b4a8631a0fa7dcdd739
+    sha256: d53506cafacc8e7a53a0294e0ecf52939a10c43b1832976646140e6fe83a8a10
 
 build:
   number: 0
@@ -26,14 +26,14 @@ outputs:
       noarch: generic
     requirements:
       run_constrained:
-        - libnvpl-blas-dev 0.4.1.*
-        - libnvpl-common-dev 0.3.3.*
-        - libnvpl-fft-dev 0.4.2.*
-        - libnvpl-lapack-dev 0.3.1.*
-        - libnvpl-rand-dev 0.5.2.*
-        - libnvpl-scalapack-dev 0.2.2.*
-        - libnvpl-sparse-dev 0.4.1.*
-        - libnvpl-tensor-dev 0.3.1.*
+        - libnvpl-blas-dev 0.5.0.*
+        - libnvpl-common-dev 0.3.4.*
+        - libnvpl-fft-dev 0.5.0.*
+        - libnvpl-lapack-dev 0.3.2.*
+        - libnvpl-rand-dev 0.5.3.*
+        - libnvpl-scalapack-dev 0.2.3.*
+        - libnvpl-sparse-dev 0.5.0.*
+        - libnvpl-tensor-dev 0.3.2.*
     test:
       commands: []
 
