@@ -1,4 +1,4 @@
-{% set version = "26.5.0" %}
+{% set version = "26.10.0" %}
 
 package:
   name: libnvpl-split
@@ -20,14 +20,14 @@ outputs:
       noarch: generic
     requirements:
       run_constrained:
-        - libnvpl-blas-dev 0.6.0.*
-        - libnvpl-common-dev 0.3.5.*
-        - libnvpl-fft-dev 0.6.0.*
-        - libnvpl-lapack-dev 0.4.0.*
-        - libnvpl-rand-dev 0.5.4.*
-        - libnvpl-scalapack-dev 0.2.4.*
-        - libnvpl-sparse-dev 0.6.0.*
-        - libnvpl-tensor-dev 0.3.3.*
+        - libnvpl-blas-dev 0.6.1.*
+        - libnvpl-common-dev 0.3.6.*
+        - libnvpl-fft-dev 0.6.1.*
+        - libnvpl-lapack-dev 0.4.1.*
+        - libnvpl-rand-dev 0.6.0.*
+        - libnvpl-scalapack-dev 0.2.5.*
+        - libnvpl-sparse-dev 0.6.1.*
+        - libnvpl-tensor-dev 0.3.4.*
     test:
       commands: []
 
